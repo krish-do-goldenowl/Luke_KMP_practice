@@ -24,6 +24,7 @@ sealed class Screen(
     val route: String,
     val navArguments: List<NamedNavArgument> = emptyList()
 ) {
+    // Sunflower Screens
     data object SignIn : Screen("signIn")
     data object SignUp : Screen("signUp")
     data object Home : Screen("home")
@@ -47,4 +48,23 @@ sealed class Screen(
         fun createRoute(plantName: String) = "gallery/${plantName}"
 
     }
+
+    // BankPick Screens
+
+    data object Onboarding : Screen("onboarding")
+    data object SignInBank : Screen("signInBank")
+    data object SignUpBank : Screen("signUpBank")
+    data object Dashboard : Screen("dashboard")
+    data object ProfileBank : Screen("profileBank")
+    data object EditProfile : Screen("editProfile")
+    data object TermAndCondition : Screen("termAndCondition")
+    data object ChangePassword : Screen("changePassword")
+    data object Language : Screen("language")
+    data object AddNewCard : Screen("addNewCard")
+    data object AllCards : Screen("allCards")
+    data object TransactionHistory : Screen("transactionHistory")
+    data object SearchTransaction : Screen("searchTransaction")
+
+    data object SendMoney : Screen("sendMoney")
+    data object RequestMoney : Screen("requestMoney")
 }

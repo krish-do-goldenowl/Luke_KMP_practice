@@ -17,7 +17,7 @@
 <resources>
 
     <!-- Resources that do not require translation -->
-    <string name="app_name" translatable="false">Sunflower</string>
+    <string name="app_name" translatable="false">BANKPICK</string>
     <string name="web_client_id" translatable="false">73264187053-jk95kh7gsgubsglr4t5q1s8pvlnnc295.apps.googleusercontent.com</string>
 
     <!-- Translatable resources -->
