@@ -131,6 +131,8 @@ dependencies {
   implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.2.0-alpha02")
   implementation("io.coil-kt:coil-compose:2.0.0-rc01")
   implementation(platform("com.google.firebase:firebase-bom:33.7.0"))
+  implementation("com.github.PhilJay:MPAndroidChart:v3.1.0")
+  implementation("io.github.thechance101:chart:Beta-0.0.5")
 
   // Compose
   implementation(platform(libs.androidx.compose.bom))

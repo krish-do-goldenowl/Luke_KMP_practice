@@ -50,14 +50,10 @@ import com.google.samples.apps.sunflower.compose.profile.ProfileScreen
 import com.google.samples.apps.sunflower.compose.signin.SignInScreen
 import com.google.samples.apps.sunflower.compose.signup.SignUpScreen
 import com.google.samples.apps.sunflower.presentation.sign_in_email_password.SignInEmailPassword
-import com.google.samples.apps.sunflower.viewmodels.PlantListViewModel
 import com.google.samples.apps.sunflower.viewmodels.UserViewModel
 import kotlinx.coroutines.launch
 
 
-fun mToast(context: Context, message: String){
-    Toast.makeText(context, message, Toast.LENGTH_LONG).show()
-}
 
 @AndroidEntryPoint
 class GardenActivity : ComponentActivity() {
